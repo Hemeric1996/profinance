@@ -1,0 +1,435 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+a {
+  color: inherit !important;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+#top {
+  background-color: #000;
+  color: #fff;
+}
+header {
+  background-color: #241b29;
+  padding: 10px 0;
+}
+.container-moins {
+  width: 95%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo {
+  height: 65px;
+}
+.navbar {
+  color: #fff;
+}
+.navbar-collapse .nav-item {
+  margin-top: 35px;
+}
+#baniere {
+  height: 500px;
+  background-image: url('../images/banie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+#baniere:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21,37,53,0.45);
+}
+#baniere h1 {
+  text-shadow: #333 2px 2px 2px;
+  font-size: 50px;
+}
+#baniere a {
+  font-size: 20px;
+}
+#baniereautomo {
+  height: 500px;
+  background-image: url('../images/anxious.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+#baniereautomo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21,37,53,0.45);
+}
+#baniereauto h1 {
+  text-shadow: #333 2px 2px 2px;
+  font-size: 50px;
+}
+#baniereautomo a {
+  font-size: 20px;
+}
+#baniereasnef {
+  height: 500px;
+  background-image: url('../images/meet.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+#baniereasnef:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21,37,53,0.45);
+}
+#baniersnef h1 {
+  text-shadow: #333 2px 2px 2px;
+  font-size: 50px;
+}
+#baniereasnef a {
+  font-size: 20px;
+}
+#banierepersonal {
+  height: 500px;
+  background-image: url('../images/hey.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  position: relative;
+  color: #fff;
+}
+#banierepersonal:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21,37,53,0.45);
+}
+#baniepersonal h1 {
+  text-shadow: #333 2px 2px 2px;
+  font-size: 50px;
+}
+#banierepersonal a {
+  font-size: 20px;
+}
+#baniereempresas {
+  height: 500px;
+  background-image: url('../images/meeting.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  position: relative;
+}
+#baniereempresas:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21,37,53,0.45);
+}
+#baniereempresas h1 {
+  color: #007bff;
+
+  font-size: 32px;
+}
+#baniereempresas a {
+  font-size: 20px;
+  color: #fff !important;
+}
+.blanc {
+    padding: 20px;
+
+
+    border-radius: 15px;
+    height: auto;
+    border: 0px solid rgba(149, 0, 50, 1);
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 5px;
+    box-shadow: -0.95px 0.31px 4px 0px rgba(0,0,0,0.58);
+}
+.spanblanc {
+  border: 0px solid rgba(243, 66, 53, 1);
+  background-color: rgba(255, 255, 255, 0.82);
+  border-radius: 0;
+  box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.5);
+  width: 211px;
+  text-align: center;
+  padding: 10px;
+}
+.baniere {
+  height: 500px;
+}
+.services{
+  padding: 50px 0;
+  min-height: 500px;
+  height: auto;
+  background: #e9e9e9;
+}
+.services a {
+  font-size: 20px;
+  color: #fff ;
+}
+.services .btn {
+  color: #fff !important;
+}
+#afterservices {
+  padding: 50px 0;
+  min-height: 500px;
+  height: auto;
+  background-color: #f7f7f7;
+}
+.services h1 {
+
+}
+.card {
+    box-shadow: #808080 1px 1px 30px -10px;
+    border: none !important;
+    min-height: 411.99px;
+    height: auto;
+}
+.carde:hover {
+  padding: 15px;
+  border-radius: 10px;
+    transition: .3s;
+    background: #f7f7f7;
+    height: auto;
+}
+.card p {
+  color: #5c6269;
+}
+#solicite {
+  padding: 50px 0;
+  height: auto;
+}
+#como {
+  padding: 50px 0;
+  min-height: 250px;
+  height: auto;
+}
+footer {
+  padding: 50px 0 15px 0;
+  height: auto;
+  background-color: #241b29;
+  color: #fff;
+  font-size: 14px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  color: #27a9e1 !important;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slider-selection {
+  background: #ffa800 !important;
+}
+.slider-handle {
+  display: block;
+    position: absolute;
+    top: -10px !important;
+    left: -10px;
+    width: 45px!important;
+    height: 22px!important;
+    background: #ffa800 !important;
+    border-radius: 11px;
+    -webkit-box-shadow: 0 2px 0 0 #ffa800;
+    box-shadow: 0 2px 0 0 #ffa800;
+    cursor: pointer;
+
+}
+.slider-handle:before {
+  border-radius: 11px 7px 7px 11px;
+float: left;
+-webkit-box-shadow: inset -5px 0 5px 0 rgba(0,0,0,.1);
+box-shadow: inset -5px 0 5px 0 rgba(0,0,0,.1);
+content: "";
+    width: 40%;
+    height: 20px;
+    margin: 1px;
+}
+.slider-handle:after {
+  border-radius: 7px 11px 11px 7px;
+    float: right;
+    -webkit-box-shadow: inset 5px 0 5px 0 rgba(0,0,0,.1);
+    box-shadow: inset 5px 0 5px 0 rgba(0,0,0,.1);
+    content: "";
+width: 40%;
+height: 20px;
+margin: 1px;
+}
+
+.tooltip-main span {
+  position: absolute !important;
+  top: 35px !important;
+  padding: .25rem .5rem !important;
+  left: 70px !important;
+  font-size: 0.75rem !important;
+  font-weight: 200 !important;
+}
+
+.slider-track-high {
+  position: absolute;
+  background: transparent;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  border-radius: 4px !important;
+  height: 4px !important;
+  width: 60% !important;
+}
+
+.slider.slider-horizontal {
+  width: 80% !important;
+  height: 4px !important;
+}
+
+.tooltip-inner:before {
+  content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 0;
+    color: #fff;
+    height: 0;
+    border: 5px solid transparent;
+    border: 6px solid transparent\0;
+    border-top-color: inherit;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.tooltip-max.bottom {
+  opacity: 0 !important;
+}
+.tooltip-main .tooltip-arrow {
+  display: none !important;
+}
+
+.tooltip .tooltip-inner {
+  border: none;
+    text-align: center;
+    width: 70px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px 0;
+    background: #fff !important;
+    font-size: 16px;
+    color: #036daf;
+    font-weight: 700;
+    border-radius: 10px !important;
+    -webkit-box-shadow: 2px 2px 5px 0 rgba(0,0,0,.2);
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,.2);
+  opacity: 1 !important;
+
+}
+.tooltip {
+  position: absolute;
+  top: -15px !important;
+  justify-content: center;
+  text-align: center;
+  background: #fff !important;
+  margin-left: 12px !important;
+  opacity: 1 !important;
+  border-radius: 10px;
+}
+.tooltip.tooltip-min {
+  display: none;
+  opacity: 0;
+}
+.tooltip.tooltip-max {
+  display: none;
+  opacity: 0;
+}
+.pricing {
+  color: #fff;
+  padding: 20px 35px 20px 35px;
+  margin: 20px;
+  background: #036daf url('../images/bg-calculator.jpg') no-repeat 0 0;
+  background-size: 100% auto;
+  min-height: 367px;
+  height: auto;
+  box-shadow: 0 1px 0 rgba(0,0,0,.24);
+  border-radius: 25px;
+}
+.pricing h4 {
+  font-size: 28px;
+}
+.whiteside {
+  color: #fff;
+  height: auto;
+
+    border: 4px solid #fff;
+    background: rgba(26,158,216,.3);
+    border-radius: 13px;
+    position: relative;
+    line-height: 1;
+    padding: 30px;
+}
+.soli {
+  width: 100%;
+margin: 20px 0 0;
+-webkit-box-ordinal-group: 3;
+-ms-flex-order: 2;
+order: 2;
+background-color: #ffa800;
+box-shadow: 0 2px 0 0 #ffa800, 0 5px 5px 0 rgba(0,0,0,.2);
+    padding: 13px 30px 10px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+        font-weight: 700;
+}
+
+.disclaimer h3 {
+  font-weight: 300;
+  font-size: 20px;
+  margin: .5em 0 0;
+}
+.whiteside h4 {
+  color: #ffa800;
+  font-weight: 700;
+}
+.disclaimer p {
+  color: hsla(0,0%,100%,.7);
+font-size: 13px;
+font-weight: 300;
+line-height: 1.2;
+}
+
+.logo-godaddy {
+  width: 150px;
+}
+.logo-confianza {
+    width: 80px;
+}
