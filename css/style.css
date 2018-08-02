@@ -1,5 +1,6 @@
 * {
-  font-family: 'Work Sans', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
 }
 a {
   color: inherit !important;
@@ -206,8 +207,8 @@ header {
 .card {
     box-shadow: #808080 1px 1px 30px -10px;
     border: none !important;
-    min-height: 411.99px;
-    height: auto;
+    height: 411.99px;
+
 }
 .carde:hover {
   padding: 15px;
@@ -215,6 +216,9 @@ header {
     transition: .3s;
     background: #f7f7f7;
     height: auto;
+}
+.carde p {
+  font-size: 1rem;
 }
 .card p {
   color: #5c6269;
