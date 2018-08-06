@@ -10,7 +10,7 @@ $("#pricing-number").slider({
     }
   }
 });
-  
+
 $("#ex8").slider({
 tooltip: 'always'
 });
@@ -29,4 +29,19 @@ $("#pricing-numbere").slider({
         return value;
     }
   }
+});
+
+// $('#ex1Slider').slider({
+// 	formatter: function(value) {
+// 		return 'Current value: ' + value;
+//     console.log(value);
+// 	}
+// });
+$("#pricing-number").on("slide", function(slideEvt) {
+    var value = slideEvt.value;
+    $('#prestamo').html(value + '$');
+});
+$("#pricing-numbere").on("slide", function(slideEvt) {
+    var valeur = slideEvt.value;
+    $('#dias').html(valeur + ' días');
 });

@@ -105,67 +105,65 @@
         </nav>
       </div>
     </header>
-    <div id="baniereasnef" class="">
-      <div class="m-auto container">
-        <div class="row align-items-center baniere">
-          <div class="col align-self-center">
-            <h1>Préstamos con ASNEF y RAI</h1>
-            <a href="pret.html" class="btn btn-primary">Solicite ahora</a>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="services">
       <div class="container">
-        <h1 class="text-center">Préstamos con ASNEF y RAI</h1>
-        <p class="mt-5">
-          Estar inscrito en un fichero de morosos como pueden ser ASNEF o RAI
-          supone una imposibilidad de acceder a la financiación convencional de
-          cualquier tipo.
-        </p>
-        <p>
-          En  PROFINANCE somos muy conscientes de la realidad que rodea a
-          nuestros clientes. Hoy en día es difícil no encontrar a alguno de
-          nosotros en alguna lista de impagos o de morosos, lo que no tiene
-          porqué significar que uno sea insolvente de cara a pedir un crédito
-          rápido para poder afrontar algún gasto.
-        </p>
-        <h3 class="mt-5">Pide tu credito con ASNEF</h3>
-        <p>
-          En CREDITO EXPRES puedes solicitar creditos con ASNEF de forma rápida,
-          sin necesidad de esperar largas colas,ni presentar todo un arsenal de
-          papeleos interminables. Concedemos tu credito con ASNEF con la misma
-          rapidez que cualquier otro crédito rápido.
-          <div class="mt-3 row d-flex">
-            <div class="col-md-8">
-              <ul>
-                <li>Sin cambiar de banco</li>
-                <li>Desde 3.000 €</li>
-                <li>Plazo: El que usted decida, de 12 a  180 meses</li>
-                <li>Su dinero disponible en 48h</li>
-                <li>12,5% de TAE Máxima (Tasa anual equivalente Máxima)</li>
-              </ul>
-            </div>
-            <div class="col-md-4 align-self-center">
-              <a href="#" class="btn btn-primary">Solicite ahora</a>
-            </div>
-          </div>
-        </p>
-        <p>
-          Los creditos con asnef online, han sido creados como medida de diligencia
-          para prestar dinero ante gastos extraordinarios imprevistos y necesarios,
-          como las facturas de la luz, la hipoteca, reparaciones del coche, o incluso
-          para oportunidades súbitas que no quieres dejar pasar.
-        </p>
-        <h3 class="mt-5">Caso práctico:</h3>
-        <p>
-          Ejemplo para un préstamo de 10.000€ a 60 meses TIN 2,83% TAE 3,00 %
-          mensualidad 179,69€. Importe total adeudado 10.781€. Ejemplo para un
-          préstamo de 5.000€ a 60 meses TIN 5,90% TAE 8,96% mensualidad 101,38€.
-          Importe total adeudado, 6.082,92€.  Duración comprendida entre 12 y 180 meses.
-          El TIN podrá variar en función del importe, la duración y el destino del préstamo.
-          Oferta financiera realizada por PROFINANCE sujeta a su aprobación.
-        </p>
+        <div class="contient">
+          <h1 class="text-center">AVISO LEGAL</h1>
+          <p>
+            Las ofertas y titular de la web es CRESERFI (N° de registro: 07022577,
+            con domicilio: 105 Route des Pommiers Centre UBIDOCA, 14176 St Martin
+            Bellevue 74370 FILLIERE).
+          </p>
+          <h3 class="mt-5 text-center">Datos de interés</h3>
+          <p>
+            PROFINANCE se reserva el derecho a actualizar, modificar o eliminar la
+            información contenida en sus páginas WEB, pudiendo incluso limitar el acceso
+            a dicha información
+          </p>
+          <h3 class="mt-5 text-center">Validez de las ofertas</h3>
+          <p>
+            Las ofertas contenidas en esta Web son sólo validas para residentes en
+            territorio nacional español. PROFINANCE no se responsabiliza de las
+            posibles discrepancias que puede haber entre la versión de sus documentos
+            impresos y la versión electrónica de los mismos publicados en sus páginas WEB.
+            Los Clientes tienen derecho a solicitar una oferta vinculante relativa a las
+            condiciones del crédito al consumo que pretendan solicitar. Dicha oferta vincula
+            a la entidad exclusivamente respecto de las condiciones de dicho crédito y por el
+            plazo legalmente establecido, sin que dicha oferta suponga la concesión del crédito
+            por parte de la entidad, quien tras el análisis crediticio del Cliente decidirá sobre
+            su concesión o denegación.
+          </p>
+          <h3 class="mt-5 text-center">Navegación anónima a través de las páginas WEB</h3>
+          <p>
+            PROFINANCE no tiene acceso a las informaciones de los suministradores
+            de nuestra Web, conociendo tan sólo el número de visitas globales que se
+            realizan en ésta.En consecuencia, si sólo accedes a nuestra Web sin registrar
+            tus datos, tal información no podrá ser asociada a un usuario concreto e
+            identificado.No obstante, esperamos que todos los visitantes se registren
+            a fin de poder ofrecerles en un futuro la información que puede ser de su interés.
+          </p>
+          <h3 class="mt-5 text-center">Seguridad</h3>
+          <p>
+            En aquellos supuestos en que el usuario solicite información sobre productos
+            o servicios o desee tramitar reclamaciones o incidencias, a través del envío
+            de formularios residentes en las páginas web de PROFINANCE, será necesario
+            recoger aquellos datos personales imprescindibles para informarles de la solicitud.
+          </p>
+          <h3 class="mt-5 text-center">Tratamiento de los datos personales</h3>
+          <p>
+            PROFINANCE respeta su intimidad y protege sus datos personales.
+            Por ello, los datos personales que nos proporciona serán almacenados por
+            PROFINANCE y tratados con la más estricta confidencialidad.
+          </p>
+          <h3 class="mt-5 text-center">Dudas o consultas:</h3>
+          <p>
+            En caso de cualquier duda o consulta, puede contactar con
+            nosotros a través de nuestro Centro de servicio al Cliente que
+            dispone de un reglamento que asegura el buen servicio al Cliente:
+          </p>
+          <strong>Teléfono:</strong> <span>+33 7 56 83 44 99 / +33 7 56 80 56 11</span><br>
+          <strong>Email:</strong> <span>finance.bedetdominique@gmail.com</span>
+        </div>
       </div>
     </div>
     <footer>
