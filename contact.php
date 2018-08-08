@@ -17,7 +17,7 @@
           <div class="col-md-6">
             <ul class="nav justify-content-start">
               <li class="nav-item align-self-center">
-                <a href="callto:0033756834499">Teléfono: +33 7 56 83 44 99 / +33 7 56 80 56 11</a>
+                Teléfono: <a href="callto:0033756834499">+33 7 56 83 44 99 / +33 7 56 80 56 11</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -162,7 +162,7 @@
             dispone de un reglamento que asegura el buen servicio al Cliente:
           </p>
           <strong>Teléfono:</strong> <span>+33 7 56 83 44 99 / +33 7 56 80 56 11</span><br>
-          <strong>Email:</strong> <span>finance.bedetdominique@gmail.com</span>
+          <strong>Email:</strong> <span>infos.finance@pro-finances.eu</span>
         </div>
       </div>
     </div>
@@ -172,7 +172,7 @@
           <div class="col-md-4">
             <ul>
               <li><h5>Atención al Cliente</h5></li>
-              <li>Email:<a href="mailto:finance.bedetdominique@gmail.com">finance.bedetdominique@gmail.com</a></li>
+              <li>Email:<a href="mailto:infos.finance@pro-finances.eu">infos.finance@pro-finances.eu</a></li>
               <li>Dirección:
                 <ul>
                   <li>105 Route des Pommiers</li>
@@ -180,7 +180,7 @@
                   <li>St Martin Bellevue 74370 FILLIERE</li>
                 </ul>
               </li>
-              <li><a href="callto:0033756834499">Teléfono: +33 7 56 83 44 99 / +33 7 56 80 56 11</a></li>
+              <li>Teléfono: <a href="callto:0033756834499">+33 7 56 83 44 99 / +33 7 56 80 56 11</a></li>
             </ul>
           </div>
           <div class="col-md-4">

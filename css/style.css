@@ -247,13 +247,7 @@ header {
     height: 411.99px;
 
 }
-.carde:hover {
-  padding: 15px;
-  border-radius: 10px;
-    transition: .3s;
-    background: #f7f7f7;
-    height: auto;
-}
+
 .carde p {
   font-size: 1rem;
 }
