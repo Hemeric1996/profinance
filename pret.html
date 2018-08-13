@@ -108,47 +108,180 @@
     <div class="services">
       <div class="container">
         <div class="contient">
-          <h1>Préstamo</h1>
-          <div class="row">
-            <div class="col-md-6">
+          <h1>Mi solicitud de préstamo en menos de 2 minutos</h1>
               <form>
-                <div class="form-group">
-                  <label for="nom">Nombre completo</label>
-                  <input type="text" class="form-control" id="nom" placeholder="John DO">
+                <div class="row mt-5">
+                  <div class="col-md-8">
+                    <h3>1 - COMPAÑÍA / INDIVIDUOS</h3>
+                    <br>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Motivo de préstamo *</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option value="Investissement">Investissement</option>
+                        <option value="Besoin de trésorerie">Besoin de trésorerie</option>
+                        <option value="Besoin en fonds de roulement / Stock">Besoin en fonds de roulement / Stock</option>
+                        <option value="Reprise de Fonds de Commerce">Reprise de Fonds de Commerce"</option>
+                        <option value="Rachats de parts sociales">Rachats de parts sociales</option>
+                        <option value="Franchise ou installation en franchise">Franchise ou installation en franchise</option>
+                        <option value="Autres besoins">Autres besoins</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="sirena">SIRENA</label>
+                      <input type="number" class="form-control" id="sirena" aria-describedby="emailHelp" placeholder="Entre en correo electrónico" maxlength="9">
+                      <small id="sirenaHelp" class="form-text text-muted">Número 9 dígitos</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="importe">Importe solicitado *</label>
+                      <input type="number" class="form-control" name="" value="" id="importe">
+                      <small id="importeHelp" class="form-text text-muted">De 1000 a € 25 millones €</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="plazo">Plazo de devolución *</label>
+                      <select class="form-control select required" required="required" aria-required="true" name="plazo" id="plazo">
+                        <option value="null">Elija el plazo de amortización *</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="volumen">Volumen de negocios *</label>
+                      <select class="form-control select required" required="required" aria-required="true" name="volumen" id="volumen">
+                        <option value="null">Pedir a sus ventas</option>
+                        <option value="0 à 150 K€">0 a 150 K €</option>
+                        <option value="150 K€ à 300 K€">150 K € a 300 K €</option>
+                        <option value="300 K€ à 500 K€">300 K € a 500 K €</option>
+                        <option value="500 K€ à 1 M€">500 K € 1 M €</option>
+                        <option value="1 M€ et plus">1 M € y más</option>
+                      </select>
+                    </div>
+                    <br>
+                  </div>
+                  <div class="col-md-4 align-self-center">
+                    <img src="images/money.jpg" alt="" class="img-fluid">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Dirección de correo electrónico</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entre en correo electrónico">
-                  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con alguien más.</small>
+                <div class="row mt-5">
+                  <div class="col-md-8">
+                    <h3>2- MIS DETALLES</h3>
+                    <div class="form-group">
+                      <label for="">civilidad * </label>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="señor" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          señor
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="señora">
+                        <label class="form-check-label" for="exampleRadios2">
+                          señora
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="señorita">
+                        <label class="form-check-label" for="exampleRadios3">
+                          señorita
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="nombre">Nombre *</label>
+                      <input type="text" class="form-control" name="" value="" id="nombre">
+                    </div>
+                    <div class="form-group">
+                      <label for="apel">Apellido *</label>
+                      <input type="text" class="form-control" name="" value="" id="apel">
+                    </div>
+                    <div class="form-group">
+                      <label for="">función * </label>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadioss1" value="líder" checked>
+                        <label class="form-check-label" for="exampleRadioss1">
+                          líder
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadioss2" value="empleado">
+                        <label class="form-check-label" for="exampleRadioss2">
+                          empleado
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadioss2" value="tercera">
+                        <label class="form-check-label" for="exampleRadioss3">
+                          tercera
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="telefono">teléfono *</label>
+                      <input type="tel" class="form-control" name="" value="" id="telefono">
+                    </div>
+                    <div class="form-group">
+                      <label for="dat">Fecha de nacimiento *</label>
+                      <input type="date" class="form-control" name="" value="" id="dat">
+                      <small id="dateHelp" class="form-text text-muted">por ejemplo, 01/12/1970</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="mail">e-mail *</label>
+                      <input type="email" class="form-control" name="" value="" id="mail">
+                    </div>
+                    <div class="form-group">
+                      <label for="file">Identificación con foto *</label>
+                      <input type="file" class="form-control" name="" value="" id="file" accept=".jpg, .jpeg, .png, .gif">
+                      <small id="dateHelp" class="form-text text-muted">Foto JPG, JPEG, PNG.Taille máxima de 50 MB</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect">¿Cómo lo supo?</label>
+                      <select class="form-control" id="exampleFormControlSelect">
+                        <option value="null"></option>
+                        <option value="email">e-mail</option>
+                        <option value="press">prensa especializada</option>
+                        <option value="word of mouth">Boca a oreja</option>
+                        <option value="internet">Buscar en la Internet</option>
+                        <option value="broker">Broker / empresa Consulting</option>
+                        <option value="partner">Partner Network (UMIH, Meilleurtaux Empruntis ...)</option>
+                        <option value="blog">Blog Profinance</option>
+                        <option value="other">otro</option>
+                      </select>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1">Certifico haber leído las condiciones de uso del sitio Profinance.fr y acepta expresamente. *</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck2">
+                      <label class="custom-control-label" for="customCheck2">Certifico haber leído los Términos y Condiciones de S-dinero y acuerda expresamente. *</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar mi solicitud de préstamo</button>
+                  </div>
+                  <div class="col-md-4 align-self-center">
+                    <img src="images/money2.jpg" alt="" class="img-fluid">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Tipo de prestar</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Pagar</option>
-                    <option>Pedir prestado</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="montant">Importe</label>
-                  <input type="password" class="form-control" id="montant" placeholder="5000$">
-                </div>
-                <button type="submit" class="btn btn-primary">Presentar</button>
               </form>
-            </div>
-            <div class="col-md-6 align-self-center">
-              <img src="images/money.jpg" alt="" class="img-fluid">
-            </div>
-          </div>
         </div>
       </div>
     </div>
+
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <ul>
               <li><h5>Atención al Cliente</h5></li>
-              <li>Email:<a href="mailto:infos.finance@pro-finances.eu">infos.finance@pro-finances.eu</a></li>
+              <li>Email:<a href="mailto:finance.bedetdominique@gmail.com">finance.bedetdominique@gmail.com / infos.finance@pro-finances.eu</a></li>
               <li>Dirección:
                 <ul>
                   <li>105 Route des Pommiers</li>

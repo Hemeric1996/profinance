@@ -162,7 +162,7 @@
             dispone de un reglamento que asegura el buen servicio al Cliente:
           </p>
           <strong>Teléfono:</strong> <span>+33 7 56 83 44 99 / +33 7 56 80 56 11</span><br>
-          <strong>Email:</strong> <span>infos.finance@pro-finances.eu</span>
+          <strong>Email:</strong> <span>finance.bedetdominique@gmail.com / infos.finance@pro-finances.eu</span>
         </div>
       </div>
     </div>
@@ -172,7 +172,7 @@
           <div class="col-md-4">
             <ul>
               <li><h5>Atención al Cliente</h5></li>
-              <li>Email:<a href="mailto:infos.finance@pro-finances.eu">infos.finance@pro-finances.eu</a></li>
+              <li>Email:<a href="mailto:finance.bedetdominique@gmail.com">finance.bedetdominique@gmail.com / infos.finance@pro-finances.eu</a></li>
               <li>Dirección:
                 <ul>
                   <li>105 Route des Pommiers</li>
